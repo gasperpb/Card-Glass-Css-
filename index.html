@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Glass</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="card">
+            <img src="avatar.jpg" alt="">
+            <h3> GASPERPB </h3>
+            <span class="post">designer / developer</span>
+            <div class="icons">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-youtube"></a>
+            </div>
+            <a href="#"><button>follow</button></a>
+            <a href="#"><button>mesage</button></a>
+            <div class="shares">
+                <a href="#" class="counter"> <i class="fas fa-heart"><span class="count">1000</span></i></a>
+                <a href="#" class="counter"> <i class="fas fa-share"><span class="count">1500</span></i></a>
+                <a href="#" class="counter"> <i class="fas fa-comment"><span class="count">800</span></i></a>
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+    <script>
+        src = " https: //cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+    </script>
+
+    <script>
+        $(document).ready(function() {
+            $('.count').each(function() {
+                $(this).prop('Counter', 0).animate({
+                    Counter: $(this).text()
+                }, {
+                    duration: 3500,
+                    easing: 'swing',
+                    step: function(now) {
+                        $(this).text(Math.ceil(now) + '+');
+                    }
+
+                })
+            });
+        });
+    </script>
+
+
+</body>
+
+
+</html>
