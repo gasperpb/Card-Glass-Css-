@@ -1,4 +1,7 @@
 # Card-Glass-Css-
+
+# Cartas usando CSS PURO 
+
 ## Tarefas
 
 O controle das tarefas desse projeto será realizado no GitHub
@@ -9,3 +12,5 @@ O controle das tarefas desse projeto será realizado no GitHub
 - :up: Atualização
 - :beetle: Correção de Bug
 - :checkered_flag: Release
+
+# Em breve continuar com outras cartas.
